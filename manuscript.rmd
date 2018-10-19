@@ -1,0 +1,170 @@
+---
+title             : "Open Science: As Much About the Tools and Culture as Pre-Registration"
+shorttitle        : "Title"
+
+author: 
+  - name          : "First Author"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Postal address"
+    email         : "my@email.com"
+  - name          : "Ernst-August Doelle"
+    affiliation   : "1,2"
+
+affiliation:
+  - id            : "1"
+    institution   : "Wilhelm-Wundt-University"
+  - id            : "2"
+    institution   : "Konstanz Business School"
+
+authornote: |
+  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
+  Enter author note here.
+
+abstract: |
+  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+  
+  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  
+  One sentence clearly stating the **general problem** being addressed by  this particular study.
+  
+  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  
+  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  
+  One or two sentences to put the results into a more **general context**.
+  
+  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : ["r-references.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+# Introduction 
+
+The way that educational researchers carry out their research has been a topic
+of debate for a long time (cites). One topic that has been a part of this debate
+concerns how open--to other researchers, stakeholders, to the public, and even
+to participants--the research is (cites).
+
+Some of the historical research has pin-pointed tensions around (cites):
+
+  - privacy due to minors/the sensitive nature of the data
+  - assymetries in terms of power between researchers and the teachers and
+    students from whom data is collected
+  - the need to protect data that was costly to collect
+
+Recently, due to cultural and technical changes, these issues have been joined
+by a focus on reproducibility. Reproducibility is an important consideration for
+doing research that contributes to theory and builds our understanding of
+educational practice. While reproducibility has been the focus of other
+disciplines, where infrastructure and support for it are being developed,
+educational research has been somewhat slow to embrace reproducible research.
+
+While we agree that pre-registration as a way to achieve it is important, we believe that it is not the most important consideration in terms of meeting the aims of open science.
+
+As [Leonelli argues](https://www.emeraldinsight.com/doi/abs/10.1108/S0743-41542018000036B009), reproducibility isn't the sole criterion for quality research. Scholars have made this point in the context of education, too (cite Hedges).
+
+We argue that two things are at least as important as reproducibility, namely:
+
+- The culture valueing openness
+- Tools to make it possible and efficient to work in the open
+
+# Past research on reproducibility (from our AERA workshop proposal and earlier drafts)
+
+The basic premise of reproducible research is that quantitative analyses should
+be conducted and documented with sufficient clarity that independent researchers
+could reproduce all the results, exactly. Initially, this may sound relatively
+straightforward---of course research findings should be reproducible---and we
+may like to think that most research in education adheres to these principles.
+Unfortunately, this is generally not the case. For example, in a large- scale
+review of growth models published from 2007-2012 across 47 education and
+psychology journals, @stevens13 found that documenting even relatively routine
+procedures, such as how missing data were handled, was extraordinarily
+difficult. Indeed, in the vast majority of cases, this information was simply
+missing. 
+
+These findings are congruent with @buckheit95, who argue "an article
+about computational science in a scientific publication is **not** the
+scholarship itself, it is merely the **advertising** of the scholarship. The
+actual scholarship is the complete software development environment and the
+complete set of instructions which generated the figures" (p. 5, emphasis in the
+original). This may seem a somewhat extreme view, but it demonstrates that a
+journal article on its own is generally insufficient for the accumulation of
+scientific evidence. That is, it is difficult to build off the work of others,
+or verify study results, if you only have access to the published findings. We
+note that reproducibility does not imply "correctness", but rather a
+transparency in process: In fact, part of the reason reproducible research is
+essential is that it allows other researchers to verify the process and
+analysis, and ultimately, the validity of the inferences made from a study.
+
+Recent research about replication in particular (Gehlbach & Robinson, 2017). Research about building knowledge in the field, related to replication (Hedges, 2018).
+
+Recent research about preparing educational researchers and advancing the methodological capabilities of the field (Henson, Hull, & Williams, 2010)
+
+Recent calls for registered reports ([AERA Open](http://journals.sagepub.com/page/ero/collections/special-topic-collections/index), [Journal of Computer Assisted Learning](https://onlinelibrary.wiley.com/journal/13652729)).
+
+# Past research on an open research culture
+
+Societies emphasizing open science ([Society for the Improvement of Psychological Science](https://www.improvingpsych.org), [rOpenSci](https://ropensci.org/))
+
+Past research on open science in general (Bertling  Friesike, 2014; National Research Council, 2018) and in educational research (Cook et al., pre-print publication;  McBee, Makel, Peters, & Matthews, pre-print publication; van der Zee & Reich, 2018) 
+
+# Past research on open tools
+
+Wickham? Python folks? Computational science folks?
+
+# Three examples of an open culture and open tools leading to reproducible work
+
+## Example 1: 
+
+asf
+
+## Example 2: 
+
+sdf
+
+## Example 3: 
+
+sdf
+
+# Key future directions
+
+dfd
+
+# Conclusions
+
+\newpage
+
+# References
+```{r create_r-references}
+r_refs(file = "r-references.bib")
+```
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup
